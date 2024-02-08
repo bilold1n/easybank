@@ -1,0 +1,249 @@
+/* public-sans-100 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 100;
+  src: url("../fonts/public-sans-v15-latin-100.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* public-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/public-sans-v15-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+header {
+  padding: 18px 0;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.nav-link {
+  color: var(--gray);
+  font-family: PublicSans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: -1px;
+  letter-spacing: -0.11px;
+  text-align: left;
+}
+.il {
+  color: var(--white);
+  font-family: Public Sans;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.logo {
+  display: flex;
+}
+.manu-btn {
+  padding-left: 20px;
+}
+.header-dack {
+  color: var(--gray);
+  font-family: PublicSans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.28px;
+  text-align: left;
+  margin-top: 24px;
+  margin-bottom: 44px;
+}
+.header-title {
+  color: var(--black);
+  font-family: Public Sans;
+  font-size: 56px;
+  font-weight: 100;
+  line-height: 64px;
+  letter-spacing: -1px;
+  text-align: left;
+  margin-top: 170px;
+}
+.orab {
+  display: flex;
+  margin-top: 14px;
+}
+.man-title {
+  color: var(--black);
+  font-family: Public Sans;
+  font-size: 40px;
+  font-weight: 100;
+  line-height: 64px;
+  letter-spacing: -0.71px;
+  text-align: left;
+  margin-top: 110px;
+}
+.main-dack {
+  margin-top: 16px;
+  color: var(--gray);
+  font-family: PublicSans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.28px;
+  text-align: left;
+  margin-bottom: 70px;
+}
+.orab {
+  position: relative;
+}
+.ikkinchi {
+  position: absolute;
+  top: 0;
+  right: 200px;
+}
+.birinchi-title {
+  color: var(--black);
+  font-family: Public Sans;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 28px;
+  letter-spacing: -0.43px;
+  text-align: left;
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+.birinchi-dack {
+  color: rgb(149, 151, 165);
+  font-family: PublicSans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -0.25px;
+  text-align: left;
+}
+.main-orab {
+  display: flex;
+  gap: 30px;
+}
+.birinchi-div {
+  width: 235px;
+  background-color: var(--white);
+  box-shadow: 2px 2px 13px 0px rgba(34, 60, 80, 0.2);
+}
+.pasi-img {
+  width: 235px;
+}
+.pasi-tepasi {
+  color: var(--gray);
+  font-family: PublicSans;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.16px;
+  text-align: left;
+  margin-top: 25px;
+  padding-left: 20px;
+}
+.orab-title {
+  color: rgb(45, 49, 77);
+  font-family: Public Sans;
+  font-size: 40px;
+  font-weight: 100;
+  line-height: 64px;
+  letter-spacing: -0.71px;
+  text-align: left;
+  margin-bottom: 40px;
+  margin-top: 175px;
+}
+.pasi-title {
+  color: var(--black);
+  font-family: Public Sans;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 20px;
+  letter-spacing: -0.29px;
+  text-align: left;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  padding-left: 20px;
+}
+.pasi-dack {
+  color: var(--gray);
+  font-family: PublicSans;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.2px;
+  text-align: left;
+  padding-left: 20px;
+  margin-bottom: 24px;
+}
+.pasi-orab {
+  display: flex;
+  gap: 30px;
+}
+.logolar {
+  margin-top: 50px;
+  display: flex;
+  gap: 10px;
+  margin-right: 200px;
+}
+.img1 {
+  width: 20px;
+}
+.img1:hover:hover {
+  cursor: pointer;
+  background-color: rgb(48, 200, 143);
+}
+.footer-container {
+  background-color: #2d314d;
+}
+.li {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.link {
+  color: var(--white);
+  font-family: PublicSans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -0.23px;
+  text-align: left;
+}
+.link:hover {
+  color: rgb(48, 200, 143);
+}
+.footer-dack {
+  display: flex;
+}
+.birinchi1 {
+  display: flex;
+  gap: 30px;
+  margin-right: 255px;
+}
+.btnlar {
+  display: flex;
+  flex-direction: column;
+}
+.footer-katta {
+  display: flex;
+  align-items: center;
+}
+.btn-dack {
+  color: rgba(255, 255, 255, 0.623);
+  font-family: PublicSans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -0.23px;
+}

@@ -1,0 +1,203 @@
+@media (max-width: 1200px) {
+  header {
+    position: relative;
+  }
+  .navbar {
+    padding: 32px;
+    position: absolute;
+    display: none;
+    background-color: var(--gray);
+
+    border-radius: 4px;
+    top: 100px;
+    width: 90%;
+    left: 5%;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+  }
+  .nav-list {
+    flex-direction: column;
+  }
+  .nav-link {
+    color: var(--black);
+    font-family: PublicSans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: -1px;
+    letter-spacing: -0.14px;
+    text-align: center;
+  }
+
+  .btn {
+    display: none;
+  }
+  .header-container {
+    padding-left: 20px;
+    .box {
+      width: 500px;
+      height: 500px;
+      box-shadow: -2px 0px 13px 3px var(--black);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .box1 {
+      padding-top: 20px;
+      padding-right: 50px;
+      padding-left: 20px;
+      bottom: 0;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 110px;
+      height: 70px;
+
+      content: "";
+      gap: 10px;
+      justify-content: center;
+      overflow: hidden;
+      padding-bottom: 10px;
+    }
+    .box1:hover {
+      .span1 {
+        rotate: -45deg;
+        animation-name: burger;
+        animation-duration: 0.1s;
+
+        animation-timing-function: linear;
+        animation-fill-mode: forwards;
+        transform: translate(-10px, 12px);
+        transition: 2s;
+      }
+      .span3 {
+        animation-name: burger1;
+        rotate: 45deg;
+        animation-duration: 0.1s;
+        animation-timing-function: linear;
+        animation-fill-mode: forwards;
+        transform: translate(-9px, -14px);
+        transition: 2s;
+      }
+      cursor: pointer;
+      .span2 {
+        transition: 2s;
+        margin-left: -200px;
+      }
+    }
+    .span1 {
+      width: 50px;
+      height: 12px;
+      border: 1px solid var(--black);
+      border-radius: 24px;
+      background-color: var(--black);
+    }
+    .span2 {
+      width: 80px;
+      height: 12px;
+      border: 1px solid var(--black);
+      border-radius: 24px;
+      background-color: var(--black);
+    }
+    .span3 {
+      width: 50px;
+      height: 12px;
+      border: 1px solid var(--black);
+      border-radius: 24px;
+      background-color: var(--black);
+    }
+  }
+
+  .active {
+    display: block;
+  }
+  .btn1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 1220px) {
+  .orab {
+    flex-direction: column;
+  }
+  .birinchi1 {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-left: 250px;
+  }
+  .link {
+    text-align: center;
+  }
+  .footer-katta {
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .logolar {
+    padding-left: 210px;
+  }
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .birinchi88 {
+    margin-top: 500px;
+  }
+  .pas-img {
+    /* margin-top: 500px; */
+  }
+  .man-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-orab {
+    flex-direction: column;
+    align-items: center;
+  }
+  .pasi-orab {
+    flex-direction: column;
+    align-items: center;
+  }
+  .orab-title {
+    text-align: center;
+  }
+  .header-title {
+    text-align: center;
+  }
+  .header-dack {
+    text-align: center;
+  }
+  .main-title {
+    text-align: center;
+  }
+  .main-dack {
+    text-align: center;
+  }
+  .birinchi-dack {
+    text-align: center;
+  }
+  .birinchi-title {
+    text-align: center;
+  }
+  .birinchi-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-left: 62px;
+  }
+}
