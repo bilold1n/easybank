@@ -203,6 +203,9 @@ header {
   cursor: pointer;
   background-color: rgb(48, 200, 143);
 }
+footer{
+    background-color: #2d314d;
+  width: 100%;
 .footer-container {
   background-color: #2d314d;
   width: 100%;
