@@ -7,7 +7,7 @@
     position: absolute;
     display: none;
     background-color: var(--gray);
-
+    z-index: 5;
     border-radius: 4px;
     top: 100px;
     width: 90%;

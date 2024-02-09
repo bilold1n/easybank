@@ -205,6 +205,7 @@ header {
 }
 .footer-container {
   background-color: #2d314d;
+  width: 100%;
 }
 .li {
   display: flex;
